@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 1.6.1 on 2006-01-31 at 14:21 (MSK)-->
-<!--Last edited by Ukelele version 2.1.4 on 2011-01-26 at 11:53 (GMT+01:00)-->
+<!--Last edited by Ukelele version 2.1.4 on 2011-01-26 at 14:13 (GMT+01:00)-->
 <keyboard group="126" id="-2" name="SAAM'" maxout="2">
     <layouts>
         <layout first="0" last="17" modifiers="commonModifiers" mapSet="ANSI"/>
@@ -1203,6 +1203,8 @@
         <action id=" ">
             <when state="none" output=" "/>
             <when state="acute" output="´"/>
+            <when state="diaresis" output="¨"/>
+            <when state="macron" output="¯"/>
         </action>
         <action id="#">
             <when state="none" output="&#x003C;"/>
