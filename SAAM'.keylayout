@@ -576,7 +576,7 @@
             <key code="29" output=""/>
             <key code="30" action="’"/>
             <key code="31" action="Ø"/>
-            <key code="32" action="̈"/>
+            <key code="32" action="diaeresis"/>
             <key code="33" output=""/>
             <key code="34" output=""/>
             <key code="35" output=""/>
@@ -1203,7 +1203,7 @@
         <action id=" ">
             <when state="none" output=" "/>
             <when state="acute" output="´"/>
-            <when state="diaresis" output="¨"/>
+            <when state="diaeresis" output="¨"/>
             <when state="macron" output="¯"/>
         </action>
         <action id="#">
@@ -1214,7 +1214,7 @@
         </action>
         <action id="&#x0022;">
             <when state="none" output="Э"/>
-            <when state="diaresis" output="Ӭ"/>
+            <when state="diaeresis" output="Ӭ"/>
             <when state="macron" output="Э̄"/>
         </action>
         <action id="&#x0026;">
@@ -1222,7 +1222,7 @@
         </action>
         <action id="&#x0027;">
             <when state="none" output="э"/>
-            <when state="diaresis" output="ӭ"/>
+            <when state="diaeresis" output="ӭ"/>
             <when state="macron" output="э̄"/>
         </action>
         <action id="*">
@@ -1252,7 +1252,7 @@
         <action id="A">
             <when state="none" output="А"/>
             <when state="acute" output="Á"/>
-            <when state="diaresis" output="Ӓ"/>
+            <when state="diaeresis" output="Ӓ"/>
             <when state="macron" output="А̄"/>
         </action>
         <action id="B">
@@ -1268,7 +1268,7 @@
         <action id="E">
             <when state="none" output="Е"/>
             <when state="acute" output="É"/>
-            <when state="diaresis" output="Ё"/>
+            <when state="diaeresis" output="Ё"/>
             <when state="macron" output="Е̄"/>
         </action>
         <action id="F">
@@ -1311,7 +1311,7 @@
         <action id="O">
             <when state="none" output="О"/>
             <when state="acute" output="Ó"/>
-            <when state="diaresis" output="Ӧ"/>
+            <when state="diaeresis" output="Ӧ"/>
             <when state="macron" output="О̄"/>
         </action>
         <action id="P">
@@ -1337,7 +1337,7 @@
         <action id="U">
             <when state="none" output="У"/>
             <when state="acute" output="Ú"/>
-            <when state="diaresis" output="Ӱ"/>
+            <when state="diaeresis" output="Ӱ"/>
             <when state="macron" output="Ӯ"/>
         </action>
         <action id="V">
@@ -1360,7 +1360,7 @@
         <action id="Z">
             <when state="none" output="Ы"/>
             <when state="acute" output="Ź"/>
-            <when state="diaresis" output="Ӹ"/>
+            <when state="diaeresis" output="Ӹ"/>
             <when state="macron" output="Ы̄"/>
         </action>
         <action id="^">
@@ -1369,7 +1369,7 @@
         <action id="a 1">
             <when state="none" output="а"/>
             <when state="acute" output="á"/>
-            <when state="diaresis" output="ӓ"/>
+            <when state="diaeresis" output="ӓ"/>
             <when state="macron" output="ā"/>
         </action>
         <action id="action">
@@ -1410,7 +1410,7 @@
             <when state="none" output="д"/>
         </action>
         <action id="diaeresis">
-            <when state="none" output="¨"/>
+            <when state="none" next="diaeresis"/>
         </action>
         <action id="dotabove">
             <when state="none" output=""/>
@@ -1429,7 +1429,7 @@
         <action id="e">
             <when state="none" output="е"/>
             <when state="acute" output="é"/>
-            <when state="diaresis" output="ё"/>
+            <when state="diaeresis" output="ё"/>
             <when state="macron" output="е̄"/>
         </action>
         <action id="f">
@@ -1498,7 +1498,7 @@
         <action id="o">
             <when state="none" output="о"/>
             <when state="acute" output="ó"/>
-            <when state="diaresis" output="ӧ"/>
+            <when state="diaeresis" output="ӧ"/>
             <when state="macron" output="о̄"/>
         </action>
         <action id="ogonek">
@@ -1545,7 +1545,7 @@
         <action id="u">
             <when state="none" output="у"/>
             <when state="acute" output="ú"/>
-            <when state="diaresis" output="ӱ"/>
+            <when state="diaeresis" output="ӱ"/>
             <when state="macron" output="ӯ"/>
         </action>
         <action id="v">
@@ -1568,7 +1568,7 @@
         <action id="z">
             <when state="none" output="ы"/>
             <when state="acute" output="ź"/>
-            <when state="diaresis" output="ӹ"/>
+            <when state="diaeresis" output="ӹ"/>
             <when state="macron" output="ы̄"/>
         </action>
         <action id="Æ">
@@ -1590,17 +1590,14 @@
         <action id="̄">
             <when state="none" next="macron"/>
         </action>
-        <action id="̈">
-            <when state="none" next="diaresis"/>
-        </action>
         <action id="Ж">
             <when state="none" output="Ж"/>
-            <when state="diaresis" output="Ё"/>
+            <when state="diaeresis" output="Ё"/>
             <when state="macron" output="Ё̄"/>
         </action>
         <action id="Ж 1">
             <when state="none" output="Ж"/>
-            <when state="diaresis" output="Ё"/>
+            <when state="diaeresis" output="Ё"/>
             <when state="macron" output="Ё̄"/>
         </action>
         <action id="Ю">
@@ -1613,7 +1610,7 @@
         </action>
         <action id="ж">
             <when state="none" output="ж"/>
-            <when state="diaresis" output="ё"/>
+            <when state="diaeresis" output="ё"/>
             <when state="macron" output="ё̄"/>
         </action>
         <action id="ю">
@@ -1632,7 +1629,7 @@
     </actions>
     <terminators>
         <when state="acute" output=""/>
-        <when state="diaresis" output="¨"/>
+        <when state="diaeresis" output="¨"/>
         <when state="macron" output="-"/>
     </terminators>
 </keyboard>
