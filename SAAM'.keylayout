@@ -45,7 +45,7 @@
     <keyMapSet id="ANSI">
         <keyMap index="0">
             <!-- No modifiers -->
-            <key code="0" action="a 1"/>
+            <key code="0" action="a"/>
             <key code="1" action="s"/>
             <key code="2" action="d"/>
             <key code="3" action="f"/>
@@ -1366,7 +1366,7 @@
         <action id="^">
             <when state="none" output="&#x0026;"/>
         </action>
-        <action id="a 1">
+        <action id="a">
             <when state="none" output="а"/>
             <when state="acute" output="á"/>
             <when state="diaeresis" output="ӓ"/>
