@@ -1,32 +1,43 @@
-internalName: northern_sami
+internalName: kildin_sami 
 
 displayNames:
-  sjd: Kildin Sami
   en: Kildin Sami
+  nb: kildinsamisk
+  sjd: Кӣллт са̄мь кӣлл
 
 locale: sjd
-
+ 
 modes:
   default: [
-    á š e r t y u i o p ŋ,
-    a s d f g h j k l đ ŧ,
-    ž z č c v b n m w
+    й ц у к е н г ш щ з х,
+    ф ы в а п р о л д ж э,
+    я ч с м и т ь б ю
   ]
   shift: [
-    Á Š E R T Y U I O P Ŋ,
-    A S D F G H J K L Đ Ŧ,
-    Ž Z Č C V B N M W
+    Й Ц У К Е Н Г Ш Щ З Х,
+    Ф Ы В А П Р О Л Д Ж Э,
+    Я Ч С М И Т Ь Б Ю
   ]
 
 longpress:
-  Á: Q
-  A: Æ Ä Å
-  Č: X
-  O: Ø Ö
-  á: q
-  a: æ ä å
-  č: x
-  o: ø ö
+  А: А̄ 
+  Е: Е̄ 
+  И: Ӣ 
+  О: О̄ 
+  Р: Ҏ
+  У: Ӯ 
+  Ы: Ы̄ 
+  Ю̄: Ю̄
+  Я: Я̄ 
+  а: а̄ 
+  е: е̄ 
+  и: ӣ 
+  о: о̄ 
+  р: ҏ
+  у: ӯ 
+  ы: ы̄ 
+  ю: ю̄ 
+  я: я̄ 
 
 styles:
   tablet:
