@@ -1,0 +1,14 @@
+locales:
+  en:
+    name: "Divvun Kildin Sami Keyboard"
+    description: "A mobile OS keyboard for Kildin Sami."
+
+author: The Divvun Group, UiT
+email: feedback@divvun.no
+
+layouts: [sjd]
+
+targets:
+  android:
+    packageId: so.brendan.keyboards.sami
+
