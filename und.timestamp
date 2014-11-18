@@ -1,4 +1,7 @@
-$Revision: 102312 $
+$Revision: 102974 $
+Ensure that the git working copies are up-to-date.
+
+r102312:
 Corrected replace string from __LANGUAGE__ to __UNDEFINED__.
 
 r102305:
