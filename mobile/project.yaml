@@ -1,14 +1,27 @@
+internalName: sami_keyboard
+
 locales:
   en:
-    name: "Divvun Kildin Sami Keyboard"
+    name: &bundleName "Divvun Kildin Sami Keyboard"
     description: "A mobile OS keyboard for Kildin Sami."
+  nb:
+    name: "Kildinsamisk tastatur fra Divvun"
+    description: "Et mobiltastatur for kildinsamisk."
 
-author: The Divvun Group, UiT
+author: The Divvun Group, UiT Norgga árktalaš universitehta
 email: feedback@divvun.no
 
 layouts: [sjd]
 
+version: 1.0
+build: 1
+
 targets:
   android:
-    packageId: so.brendan.keyboards.sami
+    packageId: no.divvun.keyboards.sjd
+    keyStore: /Users/brendan/git/softkbdgen/test.keystore
+    keyAlias: sami_keyboard
 
+  ios:
+    packageId: no.divvun.keyboards.sjd
+    bundleName: *bundleName
