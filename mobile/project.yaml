@@ -2,11 +2,11 @@ internalName: sami_keyboard
 
 locales:
   en:
-    name: &bundleName "Divvun Kildin Sami Keyboard"
-    description: "A mobile OS keyboard for Kildin Sami."
+    name: &bundleName "Kildin Sami Keyboard"
+    description: "A mobile OS keyboard for Kildin Sami from the Divvun group at UiT."
   nb:
-    name: "Kildinsamisk tastatur fra Divvun"
-    description: "Et mobiltastatur for kildinsamisk."
+    name: "Kildinsamisk tastatur"
+    description: "Et mobiltastatur for kildinsamisk fra Divvun."
 
 author: The Divvun Group, UiT Norgga árktalaš universitehta
 email: feedback@divvun.no
