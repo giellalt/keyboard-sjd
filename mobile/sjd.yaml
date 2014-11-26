@@ -65,5 +65,7 @@ styles:
       backspace: [3, right, fill]
 
 strings:
-  space: кэ̄сск
-  return: рядтвоайхэсс
+  space: Пробел
+  return: Ввод
+#  space: кэ̄сск
+#  return: рядтвоайхэсс
