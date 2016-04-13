@@ -1,4 +1,20 @@
-$Revision: 103271 $
+$Revision: 132251 $
+Removed the desktop and mobile subdirs, moving all build code to the project
+root dir.
+
+r103881:
+no.uit.giella instead of no.divvun.
+
+r103627:
+Doing the real addition of that dir.
+
+r103625:
+Added a new dir mobile/doc/ to store development and other documentation in.
+
+r103616:
+Now with support for keyboard collection names.
+
+r103271:
 sami-ime -> giella-ime.
 
 r103241:
