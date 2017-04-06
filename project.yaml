@@ -2,16 +2,16 @@ internalName: sjd_keyboard
 
 locales:
   en:
-    name: &bundleName "Kildin Sami Keyboard"
-    description: "A mobile OS keyboard for Kildin Sami from the Divvun group at UiT."
+    name: &bundleName "Kildin Sami Keyboards"
+    description: "Mobile OS keyboards for the Kildin Sami language from the Divvun group at UiT."
   nb:
-    name: "Kildinsamisk tastatur"
-    description: "Et mobiltastatur for kildinsamisk fra Divvun."
+    name: "Kildin Sami tastatur"
+    description: "Mobiltastatur for Kildin Sami fra Divvun-gruppa."
 
 author: The Divvun Group, UiT Norgga árktalaš universitehta
 email: feedback@divvun.no
 
-copyright: (c) 2016 Divvun/Giellatekno/UiT
+copyright: (c) 2017 Divvun/Giellatekno/UiT
 organisation: UiT Norgga árktalaš universitehta
 
 layouts: [sjd]
@@ -21,17 +21,17 @@ build: 1
 
 targets:
   android:
-    packageId: no.uit.giella.keyboards.__COLLECTION__
-    icon: sami-icon.pdf
+    packageId: no.uit.giella.keyboards.sjd
+    icon: sjd-icon.pdf
     keyStore: /Users/brendan/git/softkbdgen/test.keystore
-    keyAlias: sami_keyboard
+    keyAlias: sjd_keyboard
 
   ios: &AppleID
     codeSignId: "iOS Development"
     provisioningProfileId: Test
-    packageId: no.uit.giella.keyboards.__COLLECTION__
+    packageId: no.uit.giella.keyboards.sjd
     bundleName: *bundleName
     icon:
-        90: sami-icon-small.png
-        150: sami-icon.png
+        90: sjd-icon-small.png
+        150: sjd-icon.png
   osx: *AppleID
