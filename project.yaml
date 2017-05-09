@@ -21,8 +21,8 @@ build: 1
 
 targets:
   android:
-    packageId: no.uit.giella.keyboards.sjd
-    icon: sjd-icon.pdf
+    packageId: no.uit.giella.keyboards.__UND__
+    icon: images/__UND__-icon.pdf
     keyStore: /Users/brendan/git/softkbdgen/test.keystore
     keyAlias: sjd_keyboard
 
@@ -31,7 +31,5 @@ targets:
     provisioningProfileId: Test
     packageId: no.uit.giella.keyboards.sjd
     bundleName: *bundleName
-    icon:
-        90: sjd-icon-small.png
-        150: sjd-icon.png
+    icon: images/__UND__-icon.png
   osx: *AppleID
