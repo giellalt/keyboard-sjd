@@ -32,4 +32,7 @@ targets:
     packageId: no.uit.giella.keyboards.sjd
     bundleName: *bundleName
     icon: images/sjd-icon.png
-  osx: *AppleID
+  osx:
+    <<: *AppleID
+    icon: images/sjd-icon.png
+    codeSignId: "my-test-installer"
