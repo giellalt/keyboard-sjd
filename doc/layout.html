@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset='utf-8'>
-    <title>Keyboard layout for Kildin Sami</title>
+    <title>Layout(s) for the Kildin Sami Keyboards</title>
 </head>
 <body>
     <p><strong>Legend:</strong></p>
@@ -37,6 +37,19 @@
         </tr>
       </tbody>
     </table>
-    <h2>No keyboard layout defined yet!</h2>
+    <h2>Кӣллт са̄мь кӣлл</h2>
+    <object type="image/svg+xml"data="sjd_keyboards.svg" width="960" height="320"></object><br>
+    <script>
+        "use strict";
+
+        var i, ii, nodes, node;
+
+        nodes = document.querySelectorAll(".key-dead");
+        for (i = 0, ii = nodes.length; i < ii; ++i) {
+            nodes[i].addEventListener('click', function(e) {
+                console.log(this);
+            }, false);
+        }
+    </script>
 </body>
 </html>
