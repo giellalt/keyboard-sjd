@@ -23,8 +23,8 @@ targets:
   android:
     packageId: no.uit.giella.keyboards.sjd
     icon: images/sjd-icon.pdf
-    keyStore: /Users/brendan/git/softkbdgen/test.keystore
-    keyAlias: sjd_keyboard
+    keyStore: $GTPRIV/admin/dev-accounts/dev_keys/sami_keyboard.keystore
+    keyAlias: sami_keyboard
 
   ios: &AppleID
     codeSignId: "iOS Development"
