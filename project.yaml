@@ -32,8 +32,15 @@ targets:
     packageId: no.uit.giella.keyboards.sjd
     bundleName: *bundleName
     icon: images/sjd-icon.png
+
   osx:
     <<: *AppleID
     icon: images/sjd-keyboard-menu-icon.png
     version: 0.1.0
     resources: doc
+
+  win:
+    appName: *bundleName
+    version: 0.1.0
+    url: "http://divvun.no"
+    uuid: "replace-with-real-uuid-one-for-each-language"
