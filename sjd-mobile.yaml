@@ -1,47 +1,62 @@
-internalName: kpv
+internalName: sjd
 
 displayNames:
-  kpv: Коми-зырян кыв
-  en: Komi Zyrian
-  fi: Komisyrjääni
-  ru: Коми-зырянский язык
+  sjd: Кӣллт са̄мь кӣлл
+  en: Kildin Saami
+  fi: Kilttinŋansaae
+  ru: Килдинсйий язык
 
-locale: kpv
+locale: sjd
 
 supportedTargets: [ios, android]
 
 modes:
 # mobile layouts:
   mobile-default: |
-    ё ӧ і ө ӱ ь ъ х э
+#    ё ӧ і ө ӱ ь ъ х э
     й ц у к е н г ш щ з
     ф ы в а п р о л д ж
      я ч с м и т б ю
   mobile-shift: |
-    Ё Ӧ І Ө Ӱ Ь Ъ Х Э
+#    Ё Ӧ І Ө Ӱ Ь Ъ Х Э
     Й Ц У К Е Н Г Ш Щ З
     Ф Ы В А П Р О Л Д Ж
      Я Ч С М И Т Б Ю
 
 # mobile keyboards properties:
 longpress:
-  Д: Ԁ Ԃ 
-  Ж: Җ
-  З: Ԅ Ԇ
+  А: А̄ Ӓ
+  Е: Е̄ Ё Ё̄
+  И: Ӣ 
   Й: Ј
-  Л: Ԉ
-  Н: Ԋ
-  С: Ԍ
-  Т: Ԏ
-
-  д: ԁ ԃ
-  ж: җ
-  з: ԅ ԇ
+  Л: Ӆ
+  М: Ӎ
+  Н: Ӊ Ӈ
+  О: О̄ 
+  Р: Ҏ
+  У: Ӯ
+  Х: Һ 
+  Ы: Ы̄ 
+  Э: Э̄
+  Ю: Ю̄
+  Я: Я̄ 
+  Ь: Ъ Ҍ
+  а: а̄ ӓ
+  е: е̄ ё ё̄
+  и: ӣ 
   й: ј
-  л: ԉ
-  н: ԋ
-  с: ԍ
-  т: ԏ
+  л: ӆ  
+  м: ӎ
+  н: ӊ ӈ 
+  о: о̄ 
+  р: ҏ
+  у: ӯ 
+  х: һ
+  ы: ы̄ 
+  э: э̄
+  ю: ю̄ 
+  я: я̄ 
+  ь: ъ ҍ
 
 styles:
   tablet:
@@ -57,3 +72,6 @@ styles:
 strings:
   space: Пробел
   return: Ввод
+#  space: кэ̄сск
+#  return: рядтвоайхэсс
+
