@@ -1,0 +1,125 @@
+### Generated from ru-t-k0-osx-extended.xml
+internalName: sjd-mac
+
+displayNames:
+  en: Kildin Sami
+  nb: kildinsamisk
+  ru: саамский язык
+  sjd: са̄мь кӣлл
+
+locale: sjd
+
+supportedTargets: [osx, x11, svg]
+
+modes:
+# desktop keyboard layouts:
+  # default
+  iso-default: |
+    ' 1 2 3 4 5 6 7 8 9 0 ь ъ
+      я ш е р т з у и о п ю ¨
+      а с д ф г ч й к л ж э L
+    щ ы х ц в б н м , . -
+  # shift caps+shiftR+shiftL? caps+shiftL cmd+caps cmd+optR+optL?
+  iso-shift: |
+    § ! " < > % & / ( ) = Ь Ъ
+      Я Ш Е Р Т З У И О П Ю ¨
+      А С Д Ф Г Ч Й К Л Ж Э L
+    Щ Ы Х Ц В Б Н М , . -
+  #" # caps
+  iso-caps: |
+    § ! " < > % & / ( ) = Ь Ъ
+      Я Ш Е Р Т З У И О П Ю ¨
+      А С Д Ф Г Ч Й К Л Ж Э L
+    Щ Ы Х Ц В Б Н М , . -
+  # optL+caps
+  iso-caps+alt: |
+    §     !     @     #     $     ©     ^     &     *     (     )     –     ≠
+          \u{0} Џ     \u{0} \u{0} \u{0} Ң     \u{0} \u{0} Щ     \u{0} \u{0} \u{0}
+          Ф     \u{0} \u{0} Ә     \u{0} \u{0} \u{0} \u{0} \u{0} Җ     \u{0} \u{0}
+    \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} <     >     \u{0}
+  # opt cmd+optL+caps?
+  iso-alt: |
+    ' \u{0} \u{0} \u{0} \u{0} \u{0} [     ]     |     {     }     ≠     ѣ     ѣ 
+            \u{0} ц     €     ҏ     †     ң     \u{0} \u{0} \u{0} \u{0} \u{0} ±
+            \u{0} \u{0} \u{0} \u{0} ӈ     \u{0} ҋ     @     ӆ     \u{0} \u{0} '
+      ≤     \u{0} һ     \u{0} \u{0} ~     ң     ӎ     \u{0} …     \u{0}
+  # opt+shift+cmd?+caps?
+  iso-alt+shift: |
+    ' \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} Ј     Ѣ
+            \u{0} Ц     \u{0} Ҏ     †     Ң     \u{0} \u{0} \u{0} \u{0} \u{0} ±
+            \u{0} \u{0} \u{0} \u{0} Ӈ     \u{0} Ҋ     \u{0} Ӆ     \u{0} \u{0} '
+      ≤     \u{0} Һ     \u{0} \u{0} ~     Ң     Ӎ     \u{0} …     \u{0}
+### Tilpassa sjd ned hit. (iso-caps-alt er ikkje tilpassa)
+  # ctrl+opt?+caps?+shift? ctrl+cmd?+opt?+shift? ctrl+cmd?+opt?+caps? cmd+ctrlR+opt+caps+shift cmd+ctrlL+opt+caps+shift cmd+ctrl+caps+shift+optR? cmd+ctrl+caps+shift+optL? cmd+ctrl+opt+caps+shiftR? cmd+ctrl+opt+caps+shiftL?
+  iso-ctrl: |
+    0 1 2 3 4 5 6 7 8 9 0 \u{1F} +
+      \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
+      \u{1} \u{13} \u{4} \u{6} \u{7} \u{8} \u{A} \u{B} \u{C} : " \u{1C}
+    ` \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E} \u{D} , . /
+  # cmd+shiftR? cmd+shiftR+shiftL? cmd+caps+shift
+  osx-cmd: |
+    ` 1 2 3 4 5 6 7 8 9 0 - =
+      q w e r t y u i o p [ ]
+      a s d f g h j k l ; ' \
+    ` z x c v b n m , . /
+  # cmd+shiftL
+  osx-cmd+shift: |
+    ~ ! @ # $ % ^ & * ( ) _ +
+      Q W E R T Y U I O P { }
+      A S D F G H J K L : " |
+    ~ Z X C V B N M < > ?
+
+# other desktop keyboard properties:̄
+decimal: ","
+
+
+deadKeys:
+  iso-default: [' ̄', '¨']
+
+transforms:
+  ' ̄':
+    " ": " ̄"
+    а: а̄
+    е: е̄
+    и: ӣ # precomposed
+    о: о̄
+    у: ӯ # precomposed
+    ы: ы̄
+    э: э̄
+    ю: ю̄
+    я: я̄
+    ъ: ѣ 
+    А: А̄
+    Е: Е̄
+    И: Ӣ # PRECOMPOSED
+    О: О̄
+    У: Ӯ # PRECOMPOSED
+    Ы: Ы̄
+    Э: Э̄
+    Ю: Ю̄
+    Я: Я̄
+    
+  '¨':
+    " ": "¨"
+    а: ӓ
+    е: ё
+    э: ӭ
+    о: ӧ
+    ъ: ѣ 
+    А: Ӓ
+    Е: Ё
+    Э: Ӭ
+    О: Ӧ
+    Ъ: Ѣ 
+    
+
+
+special:
+  space:
+    iso-alt: \u{A0}
+    iso-alt+shift: \u{A0}
+    iso-caps+alt: \u{A0}
+    osx-cmd+alt: \u{A0}
+    
+
+    
