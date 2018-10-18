@@ -17,19 +17,19 @@ modes:
   iso-default: |
     ' 1 2 3 4 5 6 7 8 9 0 ь ъ
       я ш е р т з у и о п ю ¨
-      а с д ф г ч й к л ж э L
+      а с д ф г ч й к л ж э  ̄ 
     щ ы х ц в б н м , . -
   # shift caps+shiftR+shiftL? caps+shiftL cmd+caps cmd+optR+optL?
   iso-shift: |
     § ! " < > % & / ( ) = Ь Ъ
       Я Ш Е Р Т З У И О П Ю ¨
-      А С Д Ф Г Ч Й К Л Ж Э L
+      А С Д Ф Г Ч Й К Л Ж Э  ̄
     Щ Ы Х Ц В Б Н М , . -
   #" # caps
   iso-caps: |
     § ! " < > % & / ( ) = Ь Ъ
       Я Ш Е Р Т З У И О П Ю ¨
-      А С Д Ф Г Ч Й К Л Ж Э L
+      А С Д Ф Г Ч Й К Л Ж Э  ̄
     Щ Ы Х Ц В Б Н М , . -
   # optL+caps
   iso-caps+alt: |
@@ -39,16 +39,16 @@ modes:
     \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} <     >     \u{0}
   # opt cmd+optL+caps?
   iso-alt: |
-    ' \u{0} \u{0} \u{0} \u{0} \u{0} [     ]     |     {     }     ≠     ѣ     ѣ 
-            \u{0} ц     €     ҏ     †     ң     \u{0} \u{0} \u{0} \u{0} \u{0} ±
-            \u{0} \u{0} \u{0} \u{0} ӈ     \u{0} ҋ     @     ӆ     \u{0} \u{0} '
-      ≤     \u{0} һ     \u{0} \u{0} ~     ң     ӎ     \u{0} …     \u{0}
+    ' \u{0} \u{0} \u{0} \u{0} [     ]     |     {     }     ≠     ѣ     ѣ 
+      \u{0} ц     €     ҏ     †     ң     \u{0} \u{0} \u{0} \u{0} \u{0} ±
+      \u{0} \u{0} \u{0} \u{0} ӈ     \u{0} ҋ     @     ӆ     \u{0} \u{0} '
+    ј \u{0} һ     \u{0} \u{0} ~     ң     ӎ     \u{0} …     \u{0}
   # opt+shift+cmd?+caps?
   iso-alt+shift: |
     ' \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} Ј     Ѣ
-            \u{0} Ц     \u{0} Ҏ     †     Ң     \u{0} \u{0} \u{0} \u{0} \u{0} ±
-            \u{0} \u{0} \u{0} \u{0} Ӈ     \u{0} Ҋ     \u{0} Ӆ     \u{0} \u{0} '
-      ≤     \u{0} Һ     \u{0} \u{0} ~     Ң     Ӎ     \u{0} …     \u{0}
+      \u{0} Ц     \u{0} Ҏ     †     Ң     \u{0} \u{0} \u{0} \u{0} \u{0} ±
+      \u{0} \u{0} \u{0} \u{0} Ӈ     \u{0} Ҋ     \u{0} Ӆ     \u{0} \u{0} '
+    Ј \u{0} Һ     \u{0} \u{0} ~     Ң     Ӎ     \u{0} …     \u{0}
 ### Tilpassa sjd ned hit. (iso-caps-alt er ikkje tilpassa)
   # ctrl+opt?+caps?+shift? ctrl+cmd?+opt?+shift? ctrl+cmd?+opt?+caps? cmd+ctrlR+opt+caps+shift cmd+ctrlL+opt+caps+shift cmd+ctrl+caps+shift+optR? cmd+ctrl+caps+shift+optL? cmd+ctrl+opt+caps+shiftR? cmd+ctrl+opt+caps+shiftL?
   iso-ctrl: |
