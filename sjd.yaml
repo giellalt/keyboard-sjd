@@ -48,15 +48,15 @@ modes:
   # opt cmd+optL+caps?
   iso-alt: |
     ` ! @ # $ © ^ & * ( ) – ≠
-    ј џ ў ќ † њ ѓ ѕ ' ‘ “ «
-    d z ћ ÷ … • ∆ љ l « є \
-    § ђ x c v і ƒ m ≤ ≥ ї
+    ј џ ӯ ќ е̄ ӊ ӈ ѕ ' ‘ һ ҍ
+    d ы̄ ћ а̄ ӓ ҏ о̄ ӆ l « э̄ \
+    ё̄ я̄ x c ӎ ӣ ƒ m ≤ ю̄ ї
   # opt+shift+cmd?+caps?
   iso-alt+shift: |
     ~ ™ § £ € ® ¬ ¶ ° { } — ≈
-    Ј Џ Ў Ќ † Њ Ѓ Ѕ „ ’ ” »
-    d Z Ћ ± √ ∞ µ Љ L » Є |
-    ± Ђ X C V І ƒ M < > Ї
+    Ј Џ Ӯ Ќ Е̄ Ӊ Ӈ Ѕ ” ’ Һ Ҍ
+    D Ы̄ Ћ А̄ Ӓ Ҏ О̄ Ӆ L » Э̄ |
+    Ё̄ Я̄ X C Ӎ Ӣ Ƒ M ≥ Ю̄ Ї
   # ctrl+opt?+caps?+shift? ctrl+cmd?+opt?+shift? ctrl+cmd?+opt?+caps? cmd+ctrlR+opt+caps+shift cmd+ctrlL+opt+caps+shift cmd+ctrl+caps+shift+optR? cmd+ctrl+caps+shift+optL? cmd+ctrl+opt+caps+shiftR? cmd+ctrl+opt+caps+shiftL?
   iso-ctrl: |
     ` 1 2 3 4 5 6 7 8 9 0 \u{1F} +
