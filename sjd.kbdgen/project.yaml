@@ -1,0 +1,13 @@
+locales:
+  en:
+    name: Kildin Sami Keyboards
+    description: >-
+      Mobile OS keyboards for the Kildin Sami language from the Divvun group at
+      UiT.
+  nb:
+    name: Kildin Sami tastatur
+    description: Mobiltastatur for Kildin Sami fra Divvun-gruppa.
+author: 'The Divvun Group, UiT Norgga árktalaš universitehta'
+copyright: (c) 2017 Divvun/Giellatekno/UiT
+email: feedback@divvun.no
+organisation: UiT Norgga árktalaš universitehta
