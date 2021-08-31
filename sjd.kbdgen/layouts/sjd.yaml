@@ -7,7 +7,7 @@ displayNames:
 # V: ӯ ё̄ е̄ ы̄ ӓ а̄ о̄ ӭ э̄ я̄ ӣ ю̄
 # C-ustemt: ӊ ҏ ӆ ӎ
 # C-andre: ҍ (halvpalatalisering) ӈ (eng)
-# Andre: ҋ (Kuruch) = jh (latinske j og h; òg Kuruch)
+# Andre: ҋ = j (for standard ??, begge i Kuruch), h (for standard х, òg i Kuruch)
 
 modes:
   android:
@@ -212,6 +212,7 @@ deadKeys:
 longpress:
   А: А̄ Ӓ
   Е: Е̄ Ё Ё̄
+  Ё: Ё̄
   И: Ӣ
   Й: Ј
   Л: Ӆ
@@ -222,13 +223,14 @@ longpress:
   У: Ӯ
   Х: Һ
   Ы: Ы̄
-  Э: Э̄
+  Э: Э̄ Ӭ
   Ю: Ю̄
   Я: Я̄
   Ь: Ъ Ҍ
 
   а: а̄ ӓ
   е: е̄ ё ё̄
+  ё: ё̄
   и: ӣ
   й: ј
   л: ӆ
@@ -239,7 +241,7 @@ longpress:
   у: ӯ
   х: һ
   ы: ы̄
-  э: э̄
+  э: э̄ ӭ
   ю: ю̄
   я: я̄
   ь: ъ ҍ
