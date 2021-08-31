@@ -2,7 +2,7 @@ displayNames:
   en: Kildin Sami
   nb: kildinsamisk
   sjd: Кӣллт са̄мь кӣлл
-decimal: ','
+
 # SJD-bokstavar:
 # V: ӯ ё̄ е̄ ы̄ ӓ а̄ о̄ ӭ э̄ я̄ ӣ ю̄
 # C-ustemt: ӊ ҏ ӆ ӎ
@@ -736,6 +736,8 @@ transforms:
     O: Ơ
     u: ư
     U: Ư
+
+decimal: ','
 
 strings:
   space: Пробел
