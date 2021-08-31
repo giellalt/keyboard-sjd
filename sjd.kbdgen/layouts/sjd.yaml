@@ -737,6 +737,7 @@ transforms:
     u: ư
     U: Ư
 
+# Needed to get the numpad to output , instead of . as the decimal symbol:
 decimal: ','
 
 strings:
