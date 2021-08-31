@@ -3,6 +3,12 @@ displayNames:
   nb: kildinsamisk
   sjd: Кӣллт са̄мь кӣлл
 decimal: ','
+# SJD-bokstavar:
+# V: ӯ ё̄ е̄ ы̄ ӓ а̄ о̄ ӭ э̄ я̄ ӣ ю̄
+# C-ustemt: ӊ ҏ ӆ ӎ
+# C-andre: ҍ (halvpalatalisering) ӈ (eng)
+# Andre: ҋ (Kuruch) = jh (latinske j og h; òg Kuruch)
+
 modes:
   android:
     default: |
