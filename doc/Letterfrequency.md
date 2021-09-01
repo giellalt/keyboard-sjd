@@ -1,51 +1,54 @@
 # Kildin Saami letter frequency
 
-``` 
-2582 н
-2303 э
-2131 т
-2131 л
-1992 а
-1965 с
-1762 к
-1753 ь
-1511 р
-1459 м
-1368 е
-1226 в
-1114 о
-1000 й
- 997 у
- 877 п
- 705 д
- 667 г
- 606 ҍ # sjd
- 580 ӣ
- 571 а̄ # sjd
- 526 и
- 523 ы
- 520 ч
- 509 ш
- 465 х
- 440 я
- 405 о̄ # sjd
- 368 ӯ # sjd
- 283 е̄ # sjd
- 209 з
- 175 ӭ # sjd
- 166 я̄ # sjd
- 162 э̄ # sjd
- 143 ж
- 124 ю
- 108 ц
-  88 щ
-  81 ф
-  69 ъ
-  66 ӈ # sjd
-  55 ё # <=== last letter for 42 keys (3x 11 + 9)
-  42 ӆ # sjd
-  38 ҏ # sjd
-  18 ю̄ # sjd
-   9 ӓ # sjd # <=== last letter for 46 keys (3x 12 + 10)
-   2 ё̄ # sjd # only used in two words - access via long press
+```
+10395 н
+ 9772 э
+ 8131 т
+ 7007 л
+ 6143 с
+ 5680 ь
+ 5467 а
+ 5169 к
+ 4550 й
+ 4238 в
+ 4107 м
+ 3603 у
+ 3434 р
+ 3270 ҍ # sjd
+ 3266 е
+ 3008 х
+ 2758 д
+ 2712 п
+ 2624 о
+ 2565 а̄ # sjd
+ 2176 ӣ
+ 1849 ы
+ 1792 я
+ 1766 о̄ # sjd
+ 1598 г
+ 1559 ӯ # sdj
+ 1363 ш
+ 1199 е̄ # sjd
+ 1193 ч
+  838 э̄ # sjd
+  805 ц
+  782 я̄ # sjd
+  774 и
+  766 ӭ
+  632 ж
+  559 б
+  548 з
+  498 ӆ # sjd
+  337 ӈ # sjd
+  284 ъ
+  277 ю
+  259 ф <=== last letter for 42 keys (3x 11 + 9)
+  246 ҏ # sjd
+  123 ё
+   37 ю̄
+   15 ӓ # sjd # <=== last letter for 46 keys (3x 12 + 10)
+    4 ӊ # sjd # Too rare, only long press
+    4 щ       # Only in Russian surnames - access via long press
+    1 ӎ # sjd # Too rare, only long press
+    x ё̄ # sjd # only used in two words - access via long press
 ``` 
