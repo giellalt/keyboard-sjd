@@ -47,6 +47,5 @@
   38 ҏ # sjd
   18 ю̄ # sjd
    9 ӓ # sjd # <=== last letter for 46 keys (3x 12 + 10)
-   2 ӣ̄ # sjd
    2 ё̄ # sjd
 ``` 
