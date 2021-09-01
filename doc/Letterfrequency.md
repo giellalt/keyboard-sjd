@@ -1,8 +1,4 @@
-
-Kildin Saami letter frequency
-
-Vowel + £ = long vowel
-
+# Kildin Saami letter frequency
 
 ``` 
 2582 н
@@ -23,35 +19,34 @@ Vowel + £ = long vowel
  877 п
  705 д
  667 г
- 606 ҍ  # sjd
+ 606 ҍ # sjd
  580 ӣ
- 571 а£ # sjd
+ 571 а̄ # sjd
  526 и
  523 ы
  520 ч
  509 ш
  465 х
  440 я
- 405 о£ # sjd
- 368 ӯ  # sjd
- 283 е£ # sjd
+ 405 о̄ # sjd
+ 368 ӯ # sjd
+ 283 е̄ # sjd
  209 з
- 175 ӭ  # sjd
- 166 я£ # sjd
- 162 э£ # sjd
+ 175 ӭ # sjd
+ 166 я̄ # sjd
+ 162 э̄ # sjd
  143 ж
  124 ю
  108 ц
   88 щ
   81 ф
   69 ъ
-  66 ӈ  # sjd
-  55 ё
-  ///////////
-  42 ӆ  # sjd
-  38 ҏ  # sjd
-  18 ю£ # sjd
-   9 ӓ  # sjd
-   2 ӣ£ # sjd
-   2 ё£ # sjd
+  66 ӈ # sjd
+  55 ё # <=== last letter for 42 keys (3x 11 + 9)
+  42 ӆ # sjd
+  38 ҏ # sjd
+  18 ю̄ # sjd
+   9 ӓ # sjd # <=== last letter for 46 keys (3x 12 + 10)
+   2 ӣ̄ # sjd
+   2 ё̄ # sjd
 ``` 
