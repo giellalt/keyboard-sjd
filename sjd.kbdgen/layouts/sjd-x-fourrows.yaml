@@ -2,6 +2,7 @@ displayNames:
   en: Kildin Sami (large)
   nb: kildinsamisk (stort)
   sjd: Кӣллт са̄мь кӣлл (большой)
+  sjd-x-fourrows: Кӣллт са̄мь кӣлл (большой)
 
 modes:
   android: # alternative 2: maximal keyboard, less longpress
