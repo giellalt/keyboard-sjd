@@ -258,9 +258,3 @@ space:
     alt+shift: '\u{A0}'
     caps+alt: '\u{A0}'
     cmd+alt: '\u{A0}'
-
-targets:
-  ios:
-    legacyName: sjd_keyboards
-  android:
-    legacyName: sjd_keyboards
