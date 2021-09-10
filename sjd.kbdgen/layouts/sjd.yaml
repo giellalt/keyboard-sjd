@@ -225,6 +225,7 @@ longpress:
   Ю: Ю̄
   Я: Я̄
   Ь: Ъ Ҍ
+  Ш: Щ
 
   а: а̄ ӓ
   е: е̄ ё ё̄
@@ -243,6 +244,7 @@ longpress:
   ю: ю̄
   я: я̄
   ь: ъ ҍ
+  ш: щ
   
 
 # Needed to get the numpad to output , instead of . as the decimal symbol:
