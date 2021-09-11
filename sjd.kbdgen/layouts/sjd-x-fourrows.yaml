@@ -6,6 +6,9 @@ displayNames:
 
 modes:
   android: # alternative 2: maximal keyboard, less longpress
+           # If B row can have max 9 keys: 
+           # Delete ӓ on E07 and move ӈ from  B10 to E07. 
+           # (ӈ is 6 times as common as ӓ)
     default: |
       ё я̄ ӯ а̄ е̄ ӣ о̄ ӓ ӭ ю̄ э̄ ҏ
       й ц у к е н г ш з х ӆ ъ
@@ -52,7 +55,6 @@ longpress:
   Р: Ҏ
   У: Ӯ
   Х: Һ
-  Ы: Ы̄
   Э: Э̄ Ӭ
   Ю: Ю̄
   Я: Я̄
@@ -71,7 +73,6 @@ longpress:
   р: ҏ
   у: ӯ
   х: һ
-  ы: ы̄
   э: э̄ ӭ
   ю: ю̄
   я: я̄
