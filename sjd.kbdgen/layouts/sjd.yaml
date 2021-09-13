@@ -23,11 +23,11 @@ modes:
   ios:
     default: |
       й ц у к е ё н г ш щ з х
-      ф ы в а п р о л д ж э ё
+      ф ы в а п р о л д ж э ҍ
       \s{shift:1.25} \s{spacer:0.25} я ч с м и т ь б ю \s{spacer:0.25} \s{backspace:1.25}
     shift: |
       Й Ц У К Е Ё Н Г Ш Щ З Х
-      Ф Ы В А П Р О Л Д Ж Э Ё
+      Ф Ы В А П Р О Л Д Ж Э Ҍ
       \s{shift:1.25} \s{spacer:0.25} Я Ч С М И Т Ь Б Ю \s{spacer:0.25} \s{backspace:1.25}
     symbols-1: |
       1 2 3 4 5 6 7 8 9 0
