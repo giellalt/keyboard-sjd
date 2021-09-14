@@ -67,3 +67,16 @@ space:
     alt+shift: '\u{A0}'
     caps+alt: '\u{A0}'
     cmd+alt: '\u{A0}'
+
+targets:
+  android:
+    styles:
+      tablet:
+        actions:
+          enter:  [4, "right", "fill"]
+          shift: [4, "left", "fill"]
+          backspace: [1, "right", "fill"]
+      phone:
+        actions:
+          shift: [4, "left", "fill"]
+          backspace: [4, "right", "fill"]
