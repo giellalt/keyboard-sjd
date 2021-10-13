@@ -213,18 +213,23 @@ deadKeys:
 
 # Minimal longpress list, to avoid accidental misspellings
 longpress:
+# . in front of ј and һ are there intentionally to 'hide' those letters from
+# visibility on Android, and at the same time make them accessible at logical
+# positions for people insisting on using them. Without the ., the letters show
+# up as long-press hints. Now only the . is shown. On iOS no such hint is shown
+# but the full stop will be part of the long-press list. That is ok.
   Ё: Ё̄
-  Й: Ј
+  Й: . Ј
   М: Ӎ
   Н: Ӊ
-  Х: Һ
+  Х: . Һ
   Ш: Щ
 
   ё: ё̄
-  й: ј
+  й: . ј
   м: ӎ
   н: ӊ
-  х: һ
+  х: . һ
   ш: щ
   
 
