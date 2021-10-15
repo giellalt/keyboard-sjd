@@ -207,14 +207,14 @@ modes:
       √ ± Ӓ А̄ © Ҏ О̄ Ӆ ∆ Ӭ Э̄ |
       ` Я̄ Һ ∑ Ӎ Ӣ ™ Ҍ ~ Ю̄ :
 
-deadKeys:
-  mobile:
-    default: [´]
-    shift: ['`']
-    caps: [´]
-    caps+alt: ['-', ., ¨, ¯, ¸, ƒ, ʼ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˛, ˜, ˝]
-    alt: ['-', ., ¨, ¯, ¸, ƒ, ʼ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˛, ˜, ˝]
-    alt+shift: [ʔ, №]
+# deadKeys:
+#   mobile:
+#     default: [´]
+#     shift: ['`']
+#     caps: [´]
+#     caps+alt: ['-', ., ¨, ¯, ¸, ƒ, ʼ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˛, ˜, ˝]
+#     alt: ['-', ., ¨, ¯, ¸, ƒ, ʼ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˛, ˜, ˝]
+#     alt+shift: [ʔ, №]
 
 # Minimal longpress list, to avoid accidental misspellings
 longpress:
