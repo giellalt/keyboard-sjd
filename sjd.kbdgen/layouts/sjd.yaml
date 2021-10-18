@@ -271,3 +271,6 @@ targets:
         actions:
           shift: [4, "left", "fill"]
           backspace: [4, "right", "fill"]
+  win:
+    locale: sjd-Cyrl
+    languageName: Кӣллт са̄мь кӣлл
