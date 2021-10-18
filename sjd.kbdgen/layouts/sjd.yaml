@@ -142,6 +142,9 @@ modes:
       ≥ ⁄ \u{0} Ç «     » “ ” „ · —
 
   win:
+  # Russian Windows computers are using ANSI keyboards, NOT ISO.
+  # That is, some letters will appear on different locations than what is
+  # defined below.
     default: |
       ё 1 2 3 4 5 6 7 8 9 0 - =
         й ц у к е н г ш щ з х ъ
