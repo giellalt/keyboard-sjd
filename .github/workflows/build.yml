@@ -31,7 +31,7 @@ jobs:
         with:
           repo: https://pahkat.uit.no/devtools/
           channel: nightly
-          packages: kbdgen@2.0.0-nightly.20201127T125707Z, pahkat-uploader
+          packages: kbdgen@2.0.0-nightly.20201026T231207Z, pahkat-uploader
       - name: Run kbdgen
         id: build
         uses: divvun/actions/keyboard/build@master
