@@ -1,4 +1,4 @@
-# Documentation for the __UNDEFINED__ keyboards
+# Documentation for the Kildin Sami keyboards
 
 
 ## Layouts
