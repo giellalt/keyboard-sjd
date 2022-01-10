@@ -8,6 +8,6 @@
 |**Deadkey** | green   | orange       | pink                    | green                    |
 
 
-## Кӣллт са̄мь кӣлл
+# Кӣллт са̄мь кӣлл
 
   
