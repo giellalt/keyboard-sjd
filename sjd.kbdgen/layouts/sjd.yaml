@@ -20,6 +20,18 @@ android:
         Й Ц У К Е Н Ӈ Г Ш З Х Ҍ
         Ф Ы В А П Р О Л Ӆ Д Ж Э
         \s{shift} Я Ч С М И Т Ь Ъ Б Ю \s{backspace}
+  tablet-600:
+    layers:
+      default: |
+        я̄ ӯ а̄ ӓ е̄ ё ӣ о̄ ӭ э̄ ю̄ ҏ
+        й ц у к е н ӈ г ш з х ҍ
+        ф ы в а п р о л ӆ д ж э
+        \s{shift} я ч с м и т ь ъ б ю \s{backspace}
+      shift: |
+        Я̄ Ӯ А̄ Ӓ Е̄ Ё Ӣ О̄ Ӭ Э̄ Ю̄ Ҏ
+        Й Ц У К Е Н Ӈ Г Ш З Х Ҍ
+        Ф Ы В А П Р О Л Ӆ Д Ж Э
+        \s{shift} Я Ч С М И Т Ь Ъ Б Ю \s{backspace}
 iOS:
   primary:
     layers:
