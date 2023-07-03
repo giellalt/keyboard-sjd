@@ -285,9 +285,9 @@ keyNames:
   space: Пробел
   return: Ввод
 #  return-alts:
-#    search: your-word-for-search  # when pressing the return key triggers a search
-#    go: your-word-for-go-or-open  # when pressing the return key goes to or opens a URL
-#    send: your-word-for-send      # when pressing the return key sends e.g. an instant message
+#    search: о̄з
+#    go: а̄введҍ
+#    send: вӯлкэхьт
 #    join: your-word-for-join      # when pressing the return key joins a wifi net or similar
 #    cancel: your-word-for-cancel  # when pressing the return key cancels an action
 #    continue: your-word-for-cont  # when pressing the return key continues a process
