@@ -58,35 +58,35 @@ iOS:
   iPad-9in:
     layers:
       default: |
-        >                1 2 3 4 5 6 7 8 9 0 - = \s{backspace}
-        \s{spacer:0.5}   й ц у к е н г ш щ з х ъ  \s{spacer:0.5}
-        \s{shift}        ф ы в а п р о л д ж э ё  \s{shift}
-        \s{spacer:0.5}     я ч с м и т ь б ю    \s{return:2.5}
+        а̄                  я̄ ӯ ю̄ е̄ ё о̄ ӣ э̄ ӭ ҍ \s{backspace:2.0}
+        \s{spacer:0.3}   й ц у к е н ӈ г ш з х \s{spacer:1.7}
+        \s{spacer:0.6}   ф ы в а п р о л д ж э \s{return:1.4}
+        \s{shift}        я ч с м и т ь б ю ъ   \s{shift:2.0}
       shift: |
-        <                ! " № % : , . ; ( ) _ + \s{backspace}
-        \s{spacer:0.5}   Й Ц У К Е Н Г Ш Щ З Х Ъ \s{spacer:0.5}
-        \s{shift}        Ф Ы В А П Р О Л Д Ж Э Ё  \s{shift}
-        \s{spacer:0.5}     Я Ч С М И Т Ь Б Ю    \s{return:2.5}
+        А̄                  Я̄ Ӯ Ю̄ Е̄ Ё О̄ Ӣ Э̄ Ӭ Ҍ \s{backspace:2.0}
+        \s{spacer:0.3}   Й Ц У К Е Н Ӈ Г Ш З Х \s{spacer:1.7}
+        \s{spacer:0.6}   Ф Ы В А П Р О Л Д Ж Э \s{return:1.4}
+        \s{shift}        Я Ч С М И Т Ь Б Ю Ъ   \s{shift:2.0}
       alt: |
-        §                ! @ # $ % ^ & * ( ) – »  \s{backspace}
-        \s{spacer:0.5}   ј џ ќ ® ѣ ҥ ѓ ѕ ў ‘ “ ө  \s{spacer:0.5}
-        \s{shift}        ѳ ѵ ѷ ӓ © } ° љ … җ є ә    \s{shift}
-        \s{spacer:0.5}   ] ђ ≈ ≠ µ і ™ ~ ≤ ≥ “      \s{return:2.5}
+        1                  2 3 4 5 6 7 8 9 0 — \s{backspace:2.0}
+        \s{spacer:0.3}   ј џ ќ ® ѣ ӊ ѓ ѕ щ ‘ “ \s{spacer:1.7}
+        \s{spacer:0.6}   @ # № ₽ ´ & * ( ) ‘ “ \s{return:1.4}
+        \s{shift}        % _ - + = / ; : , .   \s{shift:2.0}
       alt+shift: |
-        ±                  | " £ € ∞ ¬ ¶ √ ' ` — «  \s{backspace}
-        \s{spacer:0.5}   Ј Џ Ќ ® Ѣ Ҥ Ѓ Ѕ Ў ’ ” Ө  \s{spacer:0.5}
-        \s{shift}        Ѳ Ѵ Ѷ Ӓ © { • Љ … Җ Є Ә    \s{shift}
-        \s{spacer:0.5}   [ Ђ ≈ ≠ µ І ™ ~ < > „      \s{return:2.5}
+        1                  2 3 4 5 6 7 8 9 0 — \s{backspace:2.0}
+        \s{spacer:0.3}   Ј Џ Ќ ® Ѣ Ӊ Ѓ Ѕ Щ ‘ “ \s{spacer:1.7}
+        \s{spacer:0.6}   @ # № ₽ ´ & * ( ) ‘ “ \s{return:1.4}
+        \s{shift}        % _ - + = / ; : , .   \s{shift:2.0}
       symbols-1: |
-        1                  2 3 4 5 6 7 8 9 0 ` ±  \s{backspace}
-        \s{spacer:0.5}   © ™ £ € ∞ § | ‹ › ≈ ´ ˚  \s{spacer:0.5}
-        \s{shiftSymbols} @ # € & * ( ) ' " ° •    \s{shiftSymbols}
-        \s{spacer:0.5}   < % _ - = / ; : , .      \s{return:2.5}
+        1                  2 3 4 5 6 7 8 9 0 — \s{backspace:2.0}
+        \s{spacer:0.3}   ј џ ќ ® ѣ ӊ ѓ ѕ щ ‘ “ \s{spacer:1.7}
+        \s{spacer:0.6}   @ # № ₽ ´ & * ( ) ‘ “ \s{return:1.4}
+        \s{shift}        % _ - + = / ; : , .   \s{shift:2.0}
       symbols-2: |
-        1                  2 3 4 5 6 7 8 9 0 ` ¿  \s{backspace}
-        \s{spacer:0.5}   ¡ ® ¥ ¢ ‰ ¶ \ « » ≠ ´ ^  \s{spacer:0.5}
-        \s{shiftSymbols} $ £ ¥ ^ [ ] { } — ° …    \s{shiftSymbols}
-        \s{spacer:0.5}   > § | ~ ≠ \ ‚ „ ! ?      \s{return:2.5}
+        1                  2 3 4 5 6 7 8 9 0 — \s{backspace:2.0}
+        \s{spacer:0.3}   ¡ ® ¥ ¢ ‰ ¶ \ « » ≠ ´ \s{spacer:1.7}
+        \s{spacer:0.6}   $ € £ ± • ` ^ [ ] { } \s{return:1.4}
+        \s{shiftSymbols} § | ~ … ≠ \ < > ! ?   \s{shiftSymbols:2.0}
   iPad-12in:
     # TODO: this is just a duplicate of 9in!
     layers:
