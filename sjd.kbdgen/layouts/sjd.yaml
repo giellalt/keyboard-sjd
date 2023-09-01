@@ -69,17 +69,17 @@ iOS:
         \s{shift}        Я Ч С М И Т Ь Б Ю Ъ   \s{shift:2.0}
       alt: |
         1                  2 3 4 5 6 7 8 9 0 — \s{backspace:2.0}
-        \s{spacer:0.3}   ј џ ќ ® ѣ ӊ ѓ ѕ щ ‘ “ \s{spacer:1.7}
+        \s{spacer:0.3}   0 ј 0 ® 0 ӊ 0 0 щ ‘ “ \s{spacer:1.7}
         \s{spacer:0.6}   @ # № ₽ ´ & * ( ) ‘ “ \s{return:1.4}
         \s{shift}        % _ - + = / ; : , .   \s{shift:2.0}
       alt+shift: |
         1                  2 3 4 5 6 7 8 9 0 — \s{backspace:2.0}
-        \s{spacer:0.3}   Ј Џ Ќ ® Ѣ Ӊ Ѓ Ѕ Щ ‘ “ \s{spacer:1.7}
+        \s{spacer:0.3}   Ј 0 0 ® 0 Ӊ 0 0 Щ ‘ “ \s{spacer:1.7}
         \s{spacer:0.6}   @ # № ₽ ´ & * ( ) ‘ “ \s{return:1.4}
         \s{shift}        % _ - + = / ; : , .   \s{shift:2.0}
       symbols-1: |
         1                  2 3 4 5 6 7 8 9 0 — \s{backspace:2.0}
-        \s{spacer:0.3}   ј џ ќ ® ѣ ӊ ѓ ѕ щ ‘ “ \s{spacer:1.7}
+        \s{spacer:0.3}   ј 0 0 ® 0 ӊ 0 0 щ ‘ “ \s{spacer:1.7}
         \s{spacer:0.6}   @ # № ₽ ´ & * ( ) ‘ “ \s{return:1.4}
         \s{shift}        % _ - + = / ; : , .   \s{shift:2.0}
       symbols-2: |
@@ -101,12 +101,12 @@ iOS:
         \s{shift:1.25} [ Я Ч С М И Т Ь Б Ю ?     \s{shift:2.75}
       alt: |
         1                  2 3 4 5 6 7 8 9 0 — \s{backspace:2.0}
-        \s{spacer:0.3}   ј џ ќ ® ѣ ӊ ѓ ѕ щ ‘ “ \s{spacer:1.7}
+        \s{spacer:0.3}   ј 0 0 ® 0 ӊ 0 0 щ ‘ “ \s{spacer:1.7}
         \s{spacer:0.6}   @ # № ₽ ´ & * ( ) ‘ “ \s{return:1.4}
         \s{shift}        % _ - + = / ; : , .   \s{shift:2.0}
       alt+shift: |
         1                  2 3 4 5 6 7 8 9 0 — \s{backspace:2.0}
-        \s{spacer:0.3}   Ј Џ Ќ ® Ѣ Ӊ Ѓ Ѕ Щ ‘ “ \s{spacer:1.7}
+        \s{spacer:0.3}   Ј 0 0 ® 0 Ӊ 0 0 Щ ‘ “ \s{spacer:1.7}
         \s{spacer:0.6}   @ # № ₽ ´ & * ( ) ‘ “ \s{return:1.4}
         \s{shift}        % _ - + = / ; : , .   \s{shift:2.0}
       symbols-1: |
