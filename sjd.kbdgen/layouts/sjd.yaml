@@ -69,14 +69,14 @@ iOS:
         \s{shift}        Я Ч С М И Т Ь Б Ю Ъ   \s{shift:2.0}
       alt: |
         1                  2 3 4 5 6 7 8 9 0 — \s{backspace:2.0}
-        \s{spacer:0.3}   0 ј 0 ® 0 ӊ 0 0 щ ‘ “ \s{spacer:1.7}
-        \s{spacer:0.6}   @ # № ₽ ´ & * ( ) ‘ “ \s{return:1.4}
-        \s{shift}        % _ - + = / ; : , .   \s{shift:2.0}
+        \s{spacer:0.3}   ј { } ® ё̄ ӊ ^ + щ ( ) \s{spacer:1.7}
+        \s{spacer:0.6}   @ # № ӓ ´ ҏ * ӆ ₽ ‘ “ \s{return:1.4}
+        \s{shift}        % _ - ӎ = / ; : , .   \s{shift:2.0}
       alt+shift: |
         1                  2 3 4 5 6 7 8 9 0 — \s{backspace:2.0}
-        \s{spacer:0.3}   Ј 0 0 ® 0 Ӊ 0 0 Щ ‘ “ \s{spacer:1.7}
-        \s{spacer:0.6}   @ # № ₽ ´ & * ( ) ‘ “ \s{return:1.4}
-        \s{shift}        % _ - + = / ; : , .   \s{shift:2.0}
+        \s{spacer:0.3}   Ј { } ® Ё̄ Ӊ ^ + Щ ( ) \s{spacer:1.7}
+        \s{spacer:0.6}   @ # № Ӓ ´ Ҏ * Ӆ ₽ ‘ “ \s{return:1.4}
+        \s{shift}        % _ - Ӎ = / ; : , .   \s{shift:2.0}
       symbols-1: |
         1                  2 3 4 5 6 7 8 9 0 — \s{backspace:2.0}
         \s{spacer:0.3}   ј 0 0 ® 0 ӊ 0 0 щ ‘ “ \s{spacer:1.7}
@@ -100,15 +100,15 @@ iOS:
         \s{spacer:1.75}  Ф Ы В А П Р О Л Д Ж Э Ё \s{return:0.75}
         \s{shift:1.25} [ Я Ч С М И Т Ь Б Ю ?     \s{shift:2.75}
       alt: |
-        1                  2 3 4 5 6 7 8 9 0 — \s{backspace:2.0}
-        \s{spacer:0.3}   ј 0 0 ® 0 ӊ 0 0 щ ‘ “ \s{spacer:1.7}
-        \s{spacer:0.6}   @ # № ₽ ´ & * ( ) ‘ “ \s{return:1.4}
-        \s{shift}        % _ - + = / ; : , .   \s{shift:2.0}
+        >                1 2 3 4 5 6 7 8 9 0 — + \s{backspace:2.0}
+        \s{spacer:0.3}   ј { } ® ё̄ ӊ ^ « » ( ) һ \s{spacer:1.7}
+        \s{spacer:0.6}   @ # № ӓ ´ ҏ * ӆ ₽ ‘ “ ° \s{return:1.4}
+        \s{shift}      … % _ - ӎ = / ; : , .     \s{shift:2.0}
       alt+shift: |
-        1                  2 3 4 5 6 7 8 9 0 — \s{backspace:2.0}
-        \s{spacer:0.3}   Ј 0 0 ® 0 Ӊ 0 0 Щ ‘ “ \s{spacer:1.7}
-        \s{spacer:0.6}   @ # № ₽ ´ & * ( ) ‘ “ \s{return:1.4}
-        \s{shift}        % _ - + = / ; : , .   \s{shift:2.0}
+        <                1 2 3 4 5 6 7 8 9 0 — + \s{backspace:2.0}
+        \s{spacer:0.3}   Ј { } ® Ё̄ Ӊ ^ « » ( ) Һ \s{spacer:1.7}
+        \s{spacer:0.6}   @ # № Ӓ ´ Ҏ * Ӆ ₽ ‘ “ ° \s{return:1.4}
+        \s{shift}      … % _ - Ӎ = / ; : , .     \s{shift:2.0}
       symbols-1: |
         `                1 2 3 4 5 6 7  8 9 0 < > \s{backspace:1.8}
         \s{spacer:1.5}   [ ] { } # % ^  * + = \ | \s{return}
@@ -268,7 +268,7 @@ longpress:
   Ь: Ъ
   Х: . Һ
   Ш: Щ
-  а:  ӓ
+  а: ӓ
   ё: ё̄
   г: ӈ
   й: . ј
