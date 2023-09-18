@@ -1,29 +1,24 @@
 displayNames:
-  'urj-RU': Уральские языки в России
-  'urj-NO': Uralske språk i Russland
-  urj: Уральские языки в России
-  en: Cyrillic (Norway)
-  fi: Kyrillinen (Norja)
-  nb: Kyrillisk (Norge)
-  'no': Kyrillisk (Norge)
-  nn: Kyrillisk (Noreg)
-  da: Kyrillisk (Norge)
-  se: Kyrillalaš (Norga)
-  sv: Kyrilliska (Norge)
-
+  en: Kildin Sami
+  nb: Kildinsamisk
+  nn: Kildinsamisk
+  'no': Kildinsamisk
+  ru: Кильдинский саамский
+  sjd: Кӣллт са̄мь кӣлл
+  sv: Kildinsamiska
 decimal: ','
 
 macOS:
   primary:
     layers:
       default: |
-        ' 1 2 3 4 5 6 7 8 9 0 + ´
-          я ш е р т ы у и о п ю ж
-          а с д ф г ч й к л ь ъ э
+        ' 1 2 3 4 5 6 7 8 9 0 ь ъ
+          я ш е р т ы у и о п ю +
+          а с д ф г ч й к л ж э #
         щ з х ц в б н м , . -
       shift: |
-        § ! " # $ % & / ( ) = ? `
-          Я Ш Е Р Т Ы У И О П Ю Ж
+        § ! " # $ % & / ( ) = Ь Ъ
+          Я Ш Е Р Т Ы У И О П Ю ?
           А С Д Ф Г Ч Й К Л Ь Ъ Э
         Щ З Х Ц В Б Н М ; : _
       caps: |
@@ -33,14 +28,14 @@ macOS:
         < Z X C V B N M , . -
       alt: |
         € © ™ £ € № § | [ ] ˝ ±  ́
-          • ҽ ә р ћ ы ү і ө п ѧ ѫ
-          а ѕ ԁ ф г һ ј | - ѣ ӕ є
-        ≤ ӡ ¸ џ ‹ › ‘ ’ ‚ … –
+          • ҽ ә ҏ ћ ы ¨ і ө п ѧ ѫ
+           ̄ ѕ ԁ ф г ј ҋ | ӆ ѣ ӕ є
+        ≤ ӡ һ џ ‹ › ӊ ӎ ‚ … –
       alt+shift: |
         Ÿ ¡ ® ¥ ¢ ‰ ¶ \ { } ≠ ¿ `
-          ° ˝ É ∫ ‡ ˜ Ü ˆ Œ ∏ ˚ ^
-           ̄ Ѕ Ԁ ° ˻ Һ Ј Ӏ  ̵ Ѣ Ӕ Є 
-        ≥ Ӡ  ̱ Џ « » “ ” „ · —
+          ° ˝ É Ҏ ‡ ˜ ¨ ˆ Œ ∏ ˚ ^
+           ̄ Ѕ Ԁ ° ˻ Ј Ҋ Ӏ Ӆ Ѣ Ӕ Є 
+        ≥ Ӡ Һ Џ « » Ӊ Ӎ „ · —
       ctrl: |
         ` 1 2 3 4 5 6 7 8 9 0 \u{1F} =
           \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1D} ~
