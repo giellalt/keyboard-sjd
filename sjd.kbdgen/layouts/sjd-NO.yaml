@@ -1,11 +1,11 @@
 displayNames:
-  en: Kildin Sami
-  nb: Kildinsamisk
-  nn: Kildinsamisk
-  'no': Kildinsamisk
-  ru: Кильдинский саамский
-  sjd: Кӣллт са̄мь кӣлл
-  sv: Kildinsamiska
+  en: Kildin Sami (Norway)
+  nb: Kildinsamisk (Norge)
+  nn: Kildinsamisk (Noreg)
+  'no': Kildinsamisk (NO)
+  ru: Кильдинский саамский (Norway)
+  sjd: Кӣллт са̄мь кӣлл (Norway)
+  sv: Kildinsamiska (Norge)
 decimal: ','
 
 macOS:
