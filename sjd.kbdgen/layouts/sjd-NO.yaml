@@ -136,7 +136,7 @@ windows:
     default: ['´']
 #    shift: ['`']
 #    caps+shift: ['`']
-    alt: ['р', 'а', 'ы', 'п', 'ф', 'г']
+    alt: ['а', 'у']
 #    alt+shift: ['^']
 
 chromeOS:
@@ -180,7 +180,7 @@ chromeOS:
     default: ['´']
 #    shift: ['`']
 #    caps+shift: ['`']
-    alt: ['р', 'а', 'ы', 'п', 'ф', 'г']
+    alt: ['а', 'у']
 #    alt+shift: ['^']
 
 transforms:
