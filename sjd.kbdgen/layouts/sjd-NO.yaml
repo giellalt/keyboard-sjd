@@ -15,7 +15,7 @@ macOS:
       default: |
         ' 1 2 3 4 5 6 7 8 9 0 ь ъ
           я ш е р т ы у и о п ю +
-          а с д ф г ч й к л ж э #
+          а с д ф г ч й к л ж э ´
         щ з х ц в б н м , . -
       shift: |
         § ! " # $ % & / ( ) = Ь Ъ
@@ -80,7 +80,7 @@ macOS:
     cmd+alt: \u{A0}
     alt+caps: \u{A0}
   deadKeys:
-#    default: ['´']
+    default: ['´']
     alt: ['¯', '¨']
 #    shift: ['`']
 #    caps: ['´']
