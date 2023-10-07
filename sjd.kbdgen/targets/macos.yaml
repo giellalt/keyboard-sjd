@@ -2,5 +2,5 @@ codeSignId: 'Developer ID Installer: The University of Tromso (2K5J2584NX)'
 provisioningProfileId: Test
 packageId: no.uit.giella.keyboards.sjd
 bundleName: Kildin Sami Keyboards
-version: 0.2.3
+version: 0.2.4
 build: 2
