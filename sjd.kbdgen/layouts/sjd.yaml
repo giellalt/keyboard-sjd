@@ -180,8 +180,8 @@ macOS:
       alt+caps: |
         § ! @ # $ % ^ & * { } – »
           Ҋ Ј Ӯ Ќ Е̄ Ӊ Ӈ < > ‘ “ ₽
-          √ Ы Ћ А̄ Ӓ Ҏ О̄ Ӆ Δ Ӭ Э̄ Ё̄
-        ` Я̄ Һ ≠ Ӎ Ӣ © Ҍ … Ю̄ “
+          ¯ Ы Ћ А̄ Ӓ Ҏ О̄ Ӆ Δ Ӭ Э̄ Ё̄
+        ` Я̄ Һ ≠ Ӎ Ӣ ¨ Ҍ … Ю̄ “
   space:
     caps: \u{A0}
     alt: \u{A0}
@@ -191,6 +191,7 @@ macOS:
   deadKeys:
     default: ['´']
     alt: ['¯', '¨']
+    alt+caps: ['¯', '¨']
 windows:
   config:
     locale: sjd-Cyrl
