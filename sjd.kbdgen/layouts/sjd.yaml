@@ -90,35 +90,35 @@ iOS:
   iPad-12in:
     layers:
       default: |
-        >                а̄ я̄ ӯ ю̄ е̄ ё о̄ ӣ э̄ ӭ ҍ ъ \s{backspace:1.8}
-        \s{spacer:1.5}   й ц у к е н ӈ г ш щ з х \s{return}
-        \s{spacer:1.75}  ф ы в а п р о л д ж э ё \s{return:0.75}
-        \s{shift:1.25} ] я ч с м и т ь б ю /     \s{shift:2.75}
+        >                а̄ я̄ ӯ ю̄ е̄ ё о̄ ӣ э̄ ӭ ҍ ъ \s{backspace:1.5}
+        \s{tabs:1.5}     й ц у к е н ӈ г ш щ з х \s{return}
+        \s{caps:1.75}    ф ы в а п р о л д ж э ё \s{return:0.75}
+        \s{shift:1.25} ] я ч с м и т ь б ю /     \s{shift:2.25}
       shift: |
-        <                А̄ Я̄ Ӯ Ю̄ Е̄ Ё О̄ Ӣ Э̄ Ӭ Ҍ Ъ \s{backspace:1.8}
-        \s{spacer:1.5}   Й Ц У К Е Н Ӈ Г Ш Щ З Х \s{return}
-        \s{spacer:1.75}  Ф Ы В А П Р О Л Д Ж Э Ё \s{return:0.75}
-        \s{shift:1.25} [ Я Ч С М И Т Ь Б Ю ?     \s{shift:2.75}
+        <                А̄ Я̄ Ӯ Ю̄ Е̄ Ё О̄ Ӣ Э̄ Ӭ Ҍ Ъ \s{backspace:1.5}
+        \s{tabs:1.5}     Й Ц У К Е Н Ӈ Г Ш Щ З Х \s{return}
+        \s{caps:1.75}    Ф Ы В А П Р О Л Д Ж Э Ё \s{return:0.75}
+        \s{shift:1.25} [ Я Ч С М И Т Ь Б Ю ?     \s{shift:2.25}
       alt: |
-        >                1 2 3 4 5 6 7 8 9 0 — + \s{backspace:1.8}
-        \s{spacer:1.5}   ј { } ® ё̄ ӊ ^ « » ( ) һ \s{return}
-        \s{spacer:1.75}  @ # № ӓ ´ ҏ * ӆ ₽ ‘ “ ° \s{return:0.75}
-        \s{shift:1.25} … % _ - ӎ = / ; : , .     \s{shift:2.75}
+        >                1 2 3 4 5 6 7 8 9 0 — + \s{backspace:1.5}
+        \s{tabs:1.5}     ј { } ® ё̄ ӊ ^ « » ( ) һ \s{return}
+        \s{caps:1.75}    @ # № ӓ ´ ҏ * ӆ ₽ ‘ “ ° \s{return:0.75}
+        \s{shift:1.25} … % _ - ӎ = / ; : , .     \s{shift:2.25}
       alt+shift: |
-        <                1 2 3 4 5 6 7 8 9 0 — + \s{backspace:1.8}
-        \s{spacer:1.5}   Ј { } ® Ё̄ Ӊ ^ « » ( ) Һ \s{return}
-        \s{spacer:1.75}  @ # № Ӓ ´ Ҏ * Ӆ ₽ ‘ “ ° \s{return:0.75}
-        \s{shift:1.25} … % _ - Ӎ = / ; : , .     \s{shift:2.75}
+        <                1 2 3 4 5 6 7 8 9 0 — + \s{backspace:1.5}
+        \s{tabs:1.5}     Ј { } ® Ё̄ Ӊ ^ « » ( ) Һ \s{return}
+        \s{caps:1.75}    @ # № Ӓ ´ Ҏ * Ӆ ₽ ‘ “ ° \s{return:0.75}
+        \s{shift:1.25} … % _ - Ӎ = / ; : , .     \s{shift:2.25}
       symbols-1: |
-        `                1 2 3 4 5 6 7  8 9 0 < > \s{backspace:1.8}
+        `                1 2 3 4 5 6 7  8 9 0 < > \s{backspace:1.5}
         \s{spacer:1.5}   [ ] { } # % ^  * + = \ | \s{return}
         \s{spacer:1.75}  - / : ; ( ) kr & @ $ £ ~ \s{return:0.75}
         \s{spacer:3.25}    … . , ? ! ‘  “ _ €     \s{spacer:2.75}
       symbols-2: |
-        `                1 2 3 4 5 6 7  8 9 0 < > \s{backspace:1.8}
+        `                1 2 3 4 5 6 7  8 9 0 < > \s{backspace:1.5}
         \s{spacer:1.5}   [ ] { } # % ^  * + = \ | \s{return}
         \s{spacer:1.75}  - / : ; ( ) kr & @ $ £ ~ \s{return:0.75}
-        \s{spacer:3.25}    … . , ? ! ‘  “ _ €     \s{spacer:2.75}
+        \s{spacer:3.25}    … . , ? ! ‘  “ _ €     \s{spacer:2.25}
 macOS:
   primary:
     layers:
