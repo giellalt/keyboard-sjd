@@ -102,12 +102,12 @@ iOS:
       alt: |
         <                1 2 3 4 5 6 7 8 9 0 — + \s{backspace:1.5}
         \s{tab:1.5}      й ц у к е ӊ ӈ г ш щ з х \s{return}
-        \s{caps:1.75}    ф ы в ӓ п ҏ о ӆ ₽ ж э ё \s{return:0.75}
+        \s{caps:1.75}    ф ы в ӓ п ҏ о ӆ д ж э ё \s{return:0.75}
         \s{shift:1.25} … я ч с ӎ и т ь б ю .     \s{shift:2.25}
       alt+shift: |
         <                1 2 3 4 5 6 7 8 9 0 — + \s{backspace:1.5}
         \s{tab:1.5}      Й Ц У К Е Ӊ Ӈ Г Ш Щ З Х \s{return}
-        \s{caps:1.75}    Ф Ы В Ӓ П Ҏ О Ӆ ₽ Ж Э Ё \s{return:0.75}
+        \s{caps:1.75}    Ф Ы В Ӓ П Ҏ О Ӆ Д Ж Э Ё \s{return:0.75}
         \s{shift:1.25} … Я Ч С Ӎ И Т Ь Б Ю .     \s{shift:2.25}
       symbols-1: |
         `                1 2 3 4 5 6 7 8 9 0 < > \s{backspace:1.5}
