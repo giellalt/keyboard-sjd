@@ -81,7 +81,7 @@ iOS:
         1                  2 3 4 5 6 7 8 9 0 — \s{backspace:2.0}
         \s{spacer:0.3}   ј { } ® © ӊ ^ + щ ‘ “ \s{spacer:1.7}
         \s{spacer:0.6}   @ # № ₽ ´ & * ( ) ‘ “ \s{return:1.4}
-        \s{shift}        % _ - + = / ; : , .   \s{shift:2.0}
+        \s{shiftSymbols} % _ - + = / ; : , .   \s{shiftSymbols:2.0}
       symbols-2: |
         1                  2 3 4 5 6 7 8 9 0 — \s{backspace:2.0}
         \s{spacer:0.3}   ¡ ™ ¥ ¢ ‰ ¶ \ « » ≠ ´ \s{spacer:1.7}
