@@ -6,7 +6,9 @@ displayNames:
   ru: Кильдинский саамский
   sjd: Кӣллт са̄мь кӣлл
   sv: Kildinsamiska
+
 decimal: ','
+
 android:
   primary:
     layers:
