@@ -14,4 +14,4 @@ The links below will download the latest build of the keyboard.
 
 # Other information
 
-Add text and links as necessary.
+The keyboards are also available via [Divvun Manager](https://divvun.no/).
