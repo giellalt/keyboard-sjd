@@ -93,7 +93,7 @@ macOS:
 windows:
   config:
     locale: rus-Cyrl-NO
-    languageName: Cyrillic Norway
+    languageName: Kildin Sámi (Norwegian layout)
   primary:
     layers:
       default: |

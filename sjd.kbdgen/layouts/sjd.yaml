@@ -197,7 +197,7 @@ macOS:
     alt+shift: ['¯', '¨']
 windows:
   config:
-    locale: sjd-Cyrl
+    locale: sjd-Cyrl-RU
     languageName: Кӣллт са̄мь кӣлл
   primary:
     layers:

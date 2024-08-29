@@ -83,8 +83,8 @@ macOS:
 
 windows:
   config:
-    locale: rus-Cyrl-NO
-    languageName: Cyrillic Norway
+    locale: rus-Cyrl-DE
+    languageName: Kildin Sámi (German layout)
   primary:
     layers:
       default: |
