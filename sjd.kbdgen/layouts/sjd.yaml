@@ -111,11 +111,6 @@ iOS:
         \s{tab:1.5}      Ҋ Ј £ Ќ ∞ Ӊ ¶ ≤ ≥ ’ ” ₽ \s{return}
         \s{caps:1.75}     ̄ | Ћ € ¬ Ҏ  ́ Ӆ Δ ’ ` — \s{return:0.75}
         \s{shift:1.25} ÷ ± Һ ≈ Ӎ µ  ̈ √ ~ « „     \s{shift:2.25}
-      alt+caps: |
-        ±                ! ” № % : , . ; ( ) _ + \s{backspace:1.5}
-        \s{tab:1.5}      Ҋ Ј £ $ % Ӊ & < > ‘ “ ₽ \s{return}
-        \s{caps:1.75}    ¯ • ° @ ^ Ҏ ´ Ӆ Δ { } – \s{return:0.75}
-        \s{shift:1.25} ÷ ± Һ ≈ Ӎ µ ¨ √ ~ « „     \s{shift:2.25}
       symbols-1: |
         `                1 2 3 4 5 6 7 8 9 0 < > \s{backspace:1.5}
         \s{tab:1.5}      [ ] { } # % ^ * + = \ | \s{return}
