@@ -1,9 +1,10 @@
 # Documentation for the Kildin Sami keyboards
 
+## Layouts
 
-# Layouts
+- [Layout overview](layout.md)
 
--   [Layout overview](layout.html)
+## Other information
 
 # Downloads
 
